@@ -100,9 +100,9 @@
 
   1️⃣ Clone the Repository
   
-      git clone <repo-link>
+      git clone https://github.com/sushma077/AutoJudge-Predicting-Programming-Problem-Difficulty-.git
       
-      cd AutoJudge
+      cd AutoJudge-Predicting-Programming-Problem-Difficulty-
   
   2️⃣ Install Dependencies
   
