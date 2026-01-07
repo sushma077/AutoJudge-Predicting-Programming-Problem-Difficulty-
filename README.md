@@ -43,11 +43,11 @@
   
   • Handcrafted numerical features:
   
-    -Text length
-    
-    -Count of mathematical symbols
-    
-    -Constraint magnitude extraction
+   -Text length
+   
+   -Count of mathematical symbols
+   
+   -Constraint magnitude extraction
     
   • Keyword-based features (DP, graph, tree, greedy, etc.)
 
@@ -78,16 +78,16 @@
 
  • The project includes an interactive Streamlit web application that:
  
-     • Accepts problem description, input format, and output format
-     
-     • Predicts:
-     
-       -Difficulty Level (Easy / Medium / Hard)
-        
-       -Difficulty Score
-        
-     • Displays results using a modern glassmorphism UI
- 
+   • Accepts problem description, input format, and output format
+   
+   • Predicts:
+   
+     -Difficulty Level (Easy / Medium / Hard)
+      
+     -Difficulty Score
+      
+   • Displays results using a modern glassmorphism UI
+
  • UI Highlights:
  
    -Gradient-based theme
