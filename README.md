@@ -2,6 +2,7 @@
 📌 Project Overview
 
  AutoJudge is an AI-powered system that predicts the difficulty level of competitive programming problems as Easy, Medium, or Hard.
+ 
  It analyzes the problem statement, input description, and output description using Natural Language Processing (NLP) and Machine Learning models.
  
  In addition to classification, AutoJudge also generates a continuous difficulty score, making the system more informative and closer to real-world judging platforms.
@@ -9,11 +10,17 @@
 📊 Dataset Used
 
  The dataset consists of competitive programming problems with:
+ 
     Problem description
+    
     Input description
+    
     Output description
+    
     Constraints
+    
     Difficulty label (Easy / Medium / Hard)
+    
     Difficulty score (numerical)
 
 📌Preprocessing performed:
