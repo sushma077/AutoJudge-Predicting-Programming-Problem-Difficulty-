@@ -11,17 +11,17 @@
 
  The dataset consists of competitive programming problems with:
  
-    • Problem description
-    
-    • Input description
-    
-    • Output description
-    
-    • Constraints
-    
-    • Difficulty label (Easy / Medium / Hard)
-    
-    • Difficulty score (numerical)
+  • Problem description
+  
+  • Input description
+  
+  • Output description
+  
+  • Constraints
+  
+  • Difficulty label (Easy / Medium / Hard)
+  
+  • Difficulty score (numerical)
 
 ## 📌Preprocessing performed:
 
