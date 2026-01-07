@@ -52,11 +52,11 @@
   • Keyword-based features (DP, graph, tree, greedy, etc.)
 
 ### 🔹 Models
-  • Classifier: Random Forest Classifier
+  • Classifier: Logistic Regression & Random Forest Classifier
   
    → Predicts difficulty category (Easy / Medium / Hard)
   
-  • Regressor: Machine Learning Regression Model
+  • Regressor: Linear Regression Model
   
    → Predicts a continuous difficulty score
    
@@ -64,13 +64,13 @@
 
 ## 📈 Evaluation Metrics
 
-  • Classification: Accuracy ~ 54%
+  • Classification: Accuracy ~ 54% by Random Forest Classifier  & ~ 50% by Logistic Regression
   
-  • Regression:
+  • Regression: Linear Regression Model
   
-   -Mean Absolute Error (MAE) ~ 2.5
-    
-   -Root Mean Squared Error (RMSE) ~ 3.1
+  -Mean Absolute Error (MAE) ~ 2.5
+   
+  -Root Mean Squared Error (RMSE) ~ 3.1
   
   • Performance improvements were observed after feature selection and engineered features.
 
@@ -82,9 +82,9 @@
    
    • Predicts:
    
-     -Difficulty Level (Easy / Medium / Hard)
-      
-     -Difficulty Score
+    -Difficulty Level (Easy / Medium / Hard)
+     
+    -Difficulty Score
       
    • Displays results using a modern glassmorphism UI
 
