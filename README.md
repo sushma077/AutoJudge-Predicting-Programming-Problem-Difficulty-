@@ -43,22 +43,22 @@
   
   • Handcrafted numerical features:
   
-      -Text length
-      
-      -Count of mathematical symbols
-      
-      -Constraint magnitude extraction
-      
+    -Text length
+    
+    -Count of mathematical symbols
+    
+    -Constraint magnitude extraction
+    
   • Keyword-based features (DP, graph, tree, greedy, etc.)
 
 ### 🔹 Models
   • Classifier: Random Forest Classifier
   
-    → Predicts difficulty category (Easy / Medium / Hard)
+   → Predicts difficulty category (Easy / Medium / Hard)
   
   • Regressor: Machine Learning Regression Model
   
-    → Predicts a continuous difficulty score
+   → Predicts a continuous difficulty score
    
  • Feature selection using Random Forest significantly improved model performance.
 
@@ -68,9 +68,9 @@
   
   • Regression:
   
-    -Mean Absolute Error (MAE) ~ 2.5
+   -Mean Absolute Error (MAE) ~ 2.5
     
-    -Root Mean Squared Error (RMSE) ~ 3.1
+   -Root Mean Squared Error (RMSE) ~ 3.1
   
   • Performance improvements were observed after feature selection and engineered features.
 
@@ -82,9 +82,9 @@
      
      • Predicts:
      
-        Difficulty Level (Easy / Medium / Hard)
+       -Difficulty Level (Easy / Medium / Hard)
         
-        Difficulty Score
+       -Difficulty Score
         
      • Displays results using a modern glassmorphism UI
  
