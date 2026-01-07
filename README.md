@@ -1,5 +1,5 @@
 # AutoJudge-Predicting-Programming-Problem-Difficulty
-📌 Project Overview
+## 📌 Project Overview
 
  AutoJudge is an AI-powered system that predicts the difficulty level of competitive programming problems as Easy, Medium, or Hard.
  
@@ -7,7 +7,7 @@
  
  In addition to classification, AutoJudge also generates a continuous difficulty score, making the system more informative and closer to real-world judging platforms.
 
-📊 Dataset Used
+## 📊 Dataset Used
 
  The dataset consists of competitive programming problems with:
  
@@ -23,46 +23,46 @@
     
     -Difficulty score (numerical)
 
-📌Preprocessing performed:
+## 📌Preprocessing performed:
 
-    1.Text cleaning and normalization
+    -Text cleaning and normalization
     
     -Stopword removal
     
     -Lemmatization
     
-    Class distribution analysis
+    -Class distribution analysis
     
-    Feature selection using Random Forest importance
+    -Feature selection using Random Forest importance
 
-🧠 Approach & Models Used
+## 🧠 Approach & Models Used
 
-🔹 Feature Engineering
+### 🔹 Feature Engineering
 
-    TF-IDF Vectorization for textual features
+    -TF-IDF Vectorization for textual features
     
-    Handcrafted numerical features:
+    -Handcrafted numerical features:
     
-        Text length
+        -Text length
         
-        Count of mathematical symbols
+        -Count of mathematical symbols
         
-        Constraint magnitude extraction
+        -Constraint magnitude extraction
         
-    Keyword-based features (DP, graph, tree, greedy, etc.)
+    -Keyword-based features (DP, graph, tree, greedy, etc.)
 
-🔹 Models
-    Classifier: Random Forest Classifier
+### 🔹 Models
+    -Classifier: Random Forest Classifier
     
-    → Predicts difficulty category (Easy / Medium / Hard)
+      → Predicts difficulty category (Easy / Medium / Hard)
     
-    Regressor: Machine Learning Regression Model
+    -Regressor: Machine Learning Regression Model
     
-    → Predicts a continuous difficulty score
+      → Predicts a continuous difficulty score
     
-  Feature selection using Random Forest significantly improved model performance.
+  -Feature selection using Random Forest significantly improved model performance.
 
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 
     Classification: Accuracy ~ 54%
     
@@ -74,7 +74,7 @@
     
     Performance improvements were observed after feature selection and engineered features.
 
-🖥️ Web Interface (Streamlit)
+## 🖥️ Web Interface (Streamlit)
 
    The project includes an interactive Streamlit web application that:
    
@@ -96,7 +96,7 @@
      
      Visual progress indicator for difficulty score
 
-🚀 Steps to Run the Project Locally
+## 🚀 Steps to Run the Project Locally
 
   1️⃣ Clone the Repository
   
@@ -116,13 +116,13 @@
   
      http://localhost:8501
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 📌 2–3 Minute Demo Video:
 
   👉 
 
-👩‍💻 Author Details
+## 👩‍💻 Author Details
 
     Name: Sushma
     
