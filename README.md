@@ -113,12 +113,12 @@
      │   └── vectorizer.pkl      # TF-IDF text vectorizer
      │
      ├── src/
-     │   └── Complete_Source_Code_Notebook.ipynb
+     │   └── Complete_Source_Code_Notebook.ipynb     # Data Preprocessing and Feature Extraction along with model training are done in this notebook.
      │
-     ├── app.py
-     ├── requirements.txt
+     ├── ACM_Report.pdf
      ├── README.md
-     └── report.pdf
+     ├── app.py
+     └── requirements.txt
 
 ## 🚀 Steps to Run the Project Locally
 
