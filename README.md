@@ -96,7 +96,7 @@
    
    -Visual progress indicator for difficulty score
 
-## Project Structure & Pipeline
+## Project Structure
      AutoJudge-Predicting-Programming-Problem-Difficulty/
      │
      ├── Dataset/
