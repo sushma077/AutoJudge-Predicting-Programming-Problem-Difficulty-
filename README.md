@@ -82,9 +82,9 @@
    
    • Predicts:
    
-    -Difficulty Level (Easy / Medium / Hard)
-     
-    -Difficulty Score
+   -Difficulty Level (Easy / Medium / Hard)
+    
+   -Difficulty Score
       
    • Displays results using a modern glassmorphism UI
 
@@ -95,6 +95,30 @@
    -Real-time predictions
    
    -Visual progress indicator for difficulty score
+
+## Project Structure & Pipeline
+     AutoJudge-Predicting-Programming-Problem-Difficulty/
+     │
+     ├── Results/
+     │   ├── Screenshot_2026-01-08_012240.png
+     │   ├── Screenshot_2026-01-08_012305.png
+     │   ├── Screenshot_2026-01-08_012313.png
+     │   ├── Screenshot_2026-01-08_012322.png
+     │   ├── Screenshot_2026-01-08_021056.png
+     │   └── Screenshot_2026-01-08_021107.png
+     │
+     ├── models/
+     │   ├── classifier.pkl      # Trained difficulty classification model
+     │   ├── regressor.pkl       # Trained difficulty score regression model
+     │   └── vectorizer.pkl      # TF-IDF text vectorizer
+     │
+     ├── src/
+     │   └── Complete_Source_Code_Notebook.ipynb
+     │
+     ├── app.py
+     ├── requirements.txt
+     ├── README.md
+     └── report.pdf
 
 ## 🚀 Steps to Run the Project Locally
 
@@ -118,13 +142,15 @@
 
 ## 🎥 Demo Video
 
-📌 2–3 Minute Demo Video:
+📌 Demo Video link:
 
-  👉 
+  👉 https://drive.google.com/file/d/1eEXUlQe-tlfCeS1N8ralLS-UGqcSy-Ld/view?usp=drivesdk
 
 ## 👩‍💻 Author Details
 
   • Name: Sushma
+
+  • Enrollment Number: 23115149
   
   • Domain: Machine Learning, NLP, Web Deployment
   
