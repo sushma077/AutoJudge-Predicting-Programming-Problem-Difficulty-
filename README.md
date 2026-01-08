@@ -99,6 +99,8 @@
 ## Project Structure & Pipeline
      AutoJudge-Predicting-Programming-Problem-Difficulty/
      │
+     ├── Dataset/
+     │   ├── problems_data.jsonl
      ├── Results/
      │   ├── Screenshot_2026-01-08_012240.png
      │   ├── Screenshot_2026-01-08_012305.png
